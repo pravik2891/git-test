@@ -1,6 +1,10 @@
-package org.git1;
+package org.git2;
 
-public class Program1 {
+public class Gittest2 {
+	
+	public void method() {
+		
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
