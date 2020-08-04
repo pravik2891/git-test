@@ -3,16 +3,28 @@ package org.git2;
 public class Gittest2 {
 	
 	public void usingLogic() {
-		String name = "pravin";
-		char[] namearray = name.toCharArray();
-		System.out.println(namearray);
-		
-		String reversed = "";
-		for(int i=namearray.length-1;i>=0;i--) {
-			reversed = reversed+namearray[i];
-			
-		}
-		System.out.println(reversed);
+		<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+		<suite name="suitename">
+		<test name="testname">
+		<classes>
+		<class name = "testNG.DependancyManagementTest"></class>
+		<class name = "testNG.DependencyManagement"></class>
+		<class name = "testNG.SampleTest"></class>
+		<class name = "testNG.TestSuite"></class>
+		</classes>
+		</test>
+		</suite>
+		<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+		<suite name="suitename">
+		<test name="testname">
+		<classes>
+		<class name = "testNG.DependancyManagementTest"></class>
+		<class name = "testNG.DependencyManagement"></class>
+		<class name = "testNG.SampleTest"></class>
+		<class name = "testNG.TestSuite"></class>
+		</classes>
+		</test>
+		</suite>
 		}
 
 	public static void main(String[] args) {
